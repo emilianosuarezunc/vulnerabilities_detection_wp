@@ -1,0 +1,2 @@
+# vulnerabilities_detection_wp
+Supervised professional practices
