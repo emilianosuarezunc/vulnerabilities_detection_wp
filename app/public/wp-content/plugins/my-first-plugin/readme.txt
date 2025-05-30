@@ -1,7 +1,7 @@
 # vulnerabilities_detection_wp
 
 === WP Security Scanner para Entornos Universitarios ===
-Contributors: tu_usuario_wporg
+Contributors: suarez_emiliano
 Tags: seguridad, wordpress, vulnerabilidades, cwe, escaneo, universidades
 Requires at least: 5.8
 Tested up to: 6.5
@@ -20,7 +20,6 @@ WordPress es ampliamente utilizado en universidades para desarrollar sitios inst
 Este plugin surge como respuesta a la necesidad de contar con una herramienta que facilite el monitoreo de seguridad de estas plataformas, siguiendo buenas prácticas y estándares de la industria.
 
 **Características principales:**
-
 - Escaneo automático de componentes activos (plugins, temas y núcleo).
 - Consulta de base de datos de vulnerabilidades.
 - Correlación con antipatrones de seguridad definidos por CWE.

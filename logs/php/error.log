@@ -81,3 +81,9 @@ Stack trace:
 [29-May-2025 13:29:13 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
 [29-May-2025 13:39:39 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
 [29-May-2025 13:39:39 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
+[29-May-2025 14:02:39 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
+[29-May-2025 14:02:39 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
+[30-May-2025 13:03:35 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
+[30-May-2025 13:03:35 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
+[30-May-2025 13:04:26 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096
+[30-May-2025 13:04:26 UTC] PHP Warning:  Array to string conversion in /home/emilianosuarez/Local Sites/vulnerabilities-web/app/public/wp-includes/formatting.php on line 1096

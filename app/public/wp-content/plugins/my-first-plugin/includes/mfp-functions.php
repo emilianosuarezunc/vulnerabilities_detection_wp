@@ -7,9 +7,9 @@ add_action( 'admin_menu', 'mfp_Add_My_Admin_Link' );
 function mfp_Add_My_Admin_Link()
 {
     add_menu_page(
-        'Vulnerability Page', // Title of the page
-        'My First Plugin', // Text to show on the menu link
-        'manage_options', // Capability requirement to see the link
+        'Vulnerability Page', 
+        'Wordpress Detect Vulnerabilities', 
+        'manage_options', 
         'mfp-vulnerability-plugin',
         'mfp_render_plugin_page'
     );
@@ -28,7 +28,7 @@ function mfp_render_plugin_page() {
     include plugin_dir_path(__FILE__) . 'plugin-list-page.php';
 }
 
-// Función unificada para renderizar arrays recursivamente
+// Función para renderizar arrays recursivamente
 function mfp_render_array_recursive($arr) {
     if (!is_array($arr)) return '';
 
@@ -45,7 +45,7 @@ function mfp_render_array_recursive($arr) {
     return $html;
 }
 
-// Función unificada para mostrar datos en tabla legible
+// Función para mostrar datos en la tabla
 function mfp_render_readable_data($data) {
     if (empty($data) || !is_array($data)) {
         echo '<p>No hay datos para mostrar.</p>';
@@ -71,6 +71,7 @@ function mfp_render_readable_data($data) {
     echo '</table>';
 }
 
+// Función para mostrar datos de los CWE para cada plugin
 function mfp_plugin_api_info_page() {
     if ( ! current_user_can( 'manage_options' ) ) {
         wp_die( 'No tenés permisos para ver esta página.' );
